@@ -29,7 +29,9 @@
             </Menu>
          </MenuBar>
          <ToolBar prefHeight="40.0" prefWidth="200.0">
-            <Button mnemonicParsing="false" text="Button" />
+            <TextField fx:id="nameField" prefWidth="150"/>
+            <Spinner fx:id="ageSpinner" prefWidth="75"/>
+            <Button mnemonicParsing="false" text="Add" onAction="#addStudent"/>
          </ToolBar>
       </VBox>
    </top>

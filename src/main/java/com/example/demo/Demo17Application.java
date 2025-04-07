@@ -15,7 +15,6 @@ public class Demo17Application {
 
     @Bean
     public CommandLineRunner commandLineRunner(StudentRepository repository) {
-        System.out.println("dsvdsf");
         return args -> {
             MainController.setRepo(repository);
             MainApp.main(args);
